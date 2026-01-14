@@ -10,7 +10,6 @@ window-padding-balance = true
 # =========================
 # Font & Cursor
 # =========================
-# Using a sleek modern font for the blue aesthetic
 font-family = "JetBrains Mono"
 font-size = 16
 cursor-style = block
