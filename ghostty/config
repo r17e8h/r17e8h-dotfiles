@@ -1,0 +1,52 @@
+# =========================
+# Window settings
+# =========================
+window-decoration = false
+window-theme = dark
+background-opacity = 1
+background-blur = 25
+window-padding-balance = true
+
+# =========================
+# Font & Cursor
+# =========================
+# Using a sleek modern font for the blue aesthetic
+font-family = "JetBrains Mono"
+font-size = 16
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
+cursor-color = #ffffff
+
+# =========================
+# Xcode-Dark Pro
+# =========================
+background = #1f1f24
+foreground = #ffffff
+selection-background = #424347
+selection-foreground = #bbbbbb
+
+# =========================
+# ANSI Palette (Xcode)
+# =========================
+palette = 0=#1f1f24
+palette = 1=#ff8170
+palette = 2=#78c2b3
+palette = 3=#d0bf69
+palette = 4=#4eb0cc
+palette = 5=#ff7ab2
+palette = 6=#76cce0
+palette = 7=#dfdfe0
+palette = 8=#7f7f7f
+palette = 9=#ff8170
+palette = 10=#78c2b3
+palette = 11=#d0bf69
+palette = 12=#4eb0cc
+palette = 13=#ff7ab2
+palette = 14=#b281eb
+palette = 15=#ffffff
+
+background-image = "/home/r17e8h/Pictures/WSelector/jeeq3q.jpg"
+background-image-opacity = 0.15
+background-image-fit = cover
+background-image-position = center
