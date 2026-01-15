@@ -1,0 +1,65 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "kitty",
+	"source": "/home/r17e8h/.config/fastfetch/berserk.jpg",
+	"width": 20,
+	"height": 10,
+        "padding": {
+            "top": 1,
+	    "left": 1,
+            "right": 2,
+			
+        }
+    },
+    "display": {
+        "separator": " ➜ ",
+        "key": {
+            "width": 12
+        }
+    },
+    "modules": [
+        "title",
+        "separator",
+        {
+            "type": "os",
+            "key": "OS",
+	    "format": "{2} {8}"
+        },
+        {
+            "type": "kernel",
+            "key": "Kernel"
+        },
+        {
+            "type": "uptime",
+            "key": "Uptime"
+        },
+        {
+            "type": "disk",
+            "key": "Storage",
+	    "folders": "/"
+        },
+	{
+	    "type": "battery",
+	    "key": "Battery"
+	},
+        {
+            "type": "shell",
+            "key": "Shell"
+        },
+        {
+            "type": "wm",
+            "key": "WM"
+        },
+        {
+            "type": "terminal",
+            "key": "Terminal"
+        },
+        {
+            "type": "memory",
+            "key": "Memory"
+        },
+        "break",
+        "colors"
+    ]
+}
