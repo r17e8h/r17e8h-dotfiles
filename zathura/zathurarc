@@ -1,0 +1,8 @@
+set adjust-open "best-fit"
+set recolor "true"
+set recolor-keephue "true"
+set font "monospace 13"
+set scroll-step 100
+set page-padding 5
+
+set selection-clipboard clipboard
