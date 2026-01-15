@@ -12,6 +12,6 @@ Basic Fedora(GNOME) rice :)
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bfbe5be0-c359-4281-bbaa-9667fd3b6f2e" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c4eaf1f-e1d0-454f-bec0-65ade85a2be3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c8453cd-0ed4-405d-8e2c-660bb7024b1b" />
 
 Ideas taken from r/unixporn 
