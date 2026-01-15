@@ -2,6 +2,8 @@
 # Window settings
 # =========================
 window-decoration = false
+window-width = 65
+window-height = 20
 window-theme = dark
 background-opacity = 1
 background-blur = 25
@@ -10,8 +12,9 @@ window-padding-balance = true
 # =========================
 # Font & Cursor
 # =========================
+# Using a sleek modern font for the blue aesthetic
 font-family = "JetBrains Mono"
-font-size = 15
+font-size = 16
 cursor-style = block
 cursor-style-blink = true
 shell-integration-features = no-cursor
