@@ -11,3 +11,5 @@ My basic Fedora(GNOME) rice :)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ba758d4-d95f-45ce-af1b-95bc6d7667c4" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bfbe5be0-c359-4281-bbaa-9667fd3b6f2e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c4eaf1f-e1d0-454f-bec0-65ade85a2be3" />
