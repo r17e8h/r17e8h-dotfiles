@@ -1,0 +1,42 @@
+/* Add your custom extension styling here */
+
+.progress-bar {
+    -barlevel-height: 4px;
+    -slider-handle-radius: 0;
+    -barlevel-active-background-color: white;
+    margin: 12px 4px;
+    padding: 0;
+    color: white;
+}
+
+.progress-bar-light {
+    -barlevel-height: 4px;
+    -slider-handle-radius: 0;
+    -barlevel-active-background-color: #282828;
+    margin: 12px 4px;
+    padding: 0;
+    color: #282828;
+}
+
+.progress-bar-light:hover {
+    -slider-handle-radius: 6px;
+    -slider-handle-border-width: 0;
+    margin: 0 4px;
+    height: 14px;
+}
+.progress-bar:hover {
+    -slider-handle-radius: 6px;
+    -slider-handle-border-width: 0;
+    margin: 0 4px;
+    height: 14px;
+}
+
+.progress-bar-ubuntu {
+    margin: 2px 5px 0 !important;
+}
+
+.progressbar-timestamp {
+    margin: 6px;
+    font-size: 14px;
+    font-feature-settings: "tnum";
+}

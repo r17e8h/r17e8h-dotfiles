@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="Bluetooth-Battery-Meter@maniacx.github.com">
+  <template class="BluetoothBatteryMeter_QuickSettings" parent="AdwPreferencesPage">
+    <property name="name">Quick Menu</property>
+    <property name="title" translatable="yes">Quick Menu</property>
+    <property name="icon-name">bbm-quick-settings-symbolic</property>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Note!</property>
+        <child>
+          <object class="AdwActionRow" id="row_note_experimental_features" />
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Quick Menu Settings</property>
+        <child>
+          <object class="AdwSwitchRow" id="use_popup_in_quicksettings">
+            <property name="title" translatable="yes">Enable popup submenu widget mode</property>
+            <property name="subtitle" translatable="yes">Adds a submenu that displays battery levels and other controls (ANC) if available</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="enable_battery_level_icon">
+            <property name="title" translatable="yes">Show battery icon for Bluetooth devices</property>
+            <property name="subtitle" translatable="yes">Displays an icon in the popup menu for Bluetooth device battery level</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="enable_battery_level_text">
+            <property name="title" translatable="yes">Show Bluetooth device battery percentage</property>
+            <property name="subtitle" translatable="yes">Displays Bluetooth device battery level percentage in text</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="swap_icon_text">
+            <property name="title" translatable="yes">Display battery level icon before text</property>
+            <property name="subtitle" translatable="yes">Swaps position of battery level icon and percentage text</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Sort By History</property>
+        <child>
+          <object class="AdwSwitchRow"  id="sort_devices_by_history">
+            <property name="title" translatable="yes">Sort devices by connection history</property>
+            <property name="subtitle" translatable="yes">Enable to sort devices by connection history, or disable to sort by connection status and alias</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

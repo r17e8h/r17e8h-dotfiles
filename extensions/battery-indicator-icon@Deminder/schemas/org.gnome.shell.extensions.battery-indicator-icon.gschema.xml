@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2023 Deminder <tremminder@gmail.com>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<schemalist gettext-domain="battery-indicator-icon">
+  <schema path="/org/gnome/shell/extensions/battery-indicator-icon/" id="org.gnome.shell.extensions.battery-indicator-icon">
+
+    <key type="s" name="status-style">
+      <default>"bold"</default>
+      <summary>Battery status icon style (bold, slim, plain, circle, hidden)</summary>
+    </key>
+
+    <key type="i" name="show-icon-text">
+      <default>0</default>
+      <summary>Show battery percentage text in icon (hidden: 0, horizontal: 1, vertical: 2)</summary>
+    </key>
+
+    <key type="s" name="icon-orientation">
+      <default>"vertical"</default>
+      <summary>Icon orientation (vertical, horizontal)</summary>
+    </key>
+
+    <key type="d" name="icon-scale">
+      <default>1</default>
+      <range min="0.1" max="1000"/>
+      <summary>Icon scale as aspect ratio width/height</summary>
+    </key>
+  </schema>
+</schemalist>

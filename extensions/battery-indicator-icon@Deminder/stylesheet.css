@@ -1,0 +1,19 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Deminder <tremminder@gmail.com>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+.battery-indicator {
+  font-size: 8px;
+  font-weight: bolder;
+  font-family: 'Droid Sans Mono';
+  margin-right: 4px;
+  margin-left: 5px;
+}
+
+.battery-quick-toggle {
+  font-size: 8px;
+  font-weight: bolder;
+  font-family: 'Droid Sans Mono';
+}

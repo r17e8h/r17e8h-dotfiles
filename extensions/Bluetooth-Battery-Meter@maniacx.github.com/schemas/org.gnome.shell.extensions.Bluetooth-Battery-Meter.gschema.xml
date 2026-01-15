@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+    <schema path="/org/gnome/shell/extensions/Bluetooth-Battery-Meter/" id="org.gnome.shell.extensions.Bluetooth-Battery-Meter">
+        <key name="popup-in-quick-settings" type="b">
+            <default>true</default>
+            <summary>Displays an icon  showing bluetooth device battery level in bluetooth quickmenu</summary>
+        </key>
+        <key name="enable-battery-level-icon" type="b">
+            <default>true</default>
+            <summary>Displays an icon  showing bluetooth device battery level in bluetooth quickmenu</summary>
+        </key>
+        <key name="enable-battery-level-text" type="b">
+            <default>false</default>
+            <summary>Displays a text the percentage of bluetooth device battery level in bluetooth quickmenu</summary>
+        </key>
+        <key name="swap-icon-text" type="b">
+            <default>false</default>
+            <summary>Display battery level icon before level percentage text in quick menu</summary>
+        </key>
+        <key name="sort-devices-by-history" type="b">
+            <default>false</default>
+            <summary>"Sort devices by connection history"</summary>
+        </key>
+        <key name="hide-bluetooth-indicator" type="i">
+            <default>0</default>
+            <summary>Hide bluetooth indicator when device indicators are displayed</summary>
+        </key>
+        <key name="indicator-type" type="i">
+            <default>1</default>
+            <summary>0: System Tray, 1: Panel Button</summary>
+        </key>
+        <key name="panel-button-single-indicator" type="b">
+            <default>false</default>
+            <summary>"enable single device indicator"</summary>
+        </key>
+        <key name="enable-multi-indicator-mode" type="b">
+            <default>false</default>
+            <summary>"For one device display each Bat level as seperate indicator"</summary>
+        </key>
+        <key name="enable-on-hover-mode" type="b">
+            <default>true</default>
+            <summary>"enable use of on hover mode"</summary>
+        </key>
+        <key name="on-hover-delay" type="i">
+            <default>1000</default>
+            <summary>"onhover delay time in milliseconds"</summary>
+        </key>
+        <key name="enable-tooltip" type="b">
+            <default>true</default>
+            <summary>"Enable Tooltips"</summary>
+        </key>
+        <key name="default-selected-path" type="s">
+            <default>''</default>
+            <summary>"Store path if activated"</summary>
+        </key>
+        <key name="disable-level-in-icon" type="b">
+            <default>false</default>
+            <summary>Removes level indicator from icon </summary>
+        </key>
+        <key name="enable-battery-indicator-text" type="b">
+            <default>false</default>
+            <summary>Show text next to icon in system tray with device battery level</summary>
+        </key>
+        <key name="indicator-size" type="i">
+            <default>100</default>
+            <summary>Change size of icon widget</summary>
+        </key>
+        <key name="level-indicator-type" type="i">
+            <default>0</default>
+            <summary>"Level type"</summary>
+        </key>
+        <key name="level-bar-position" type="i">
+            <default>1</default>
+            <summary>"Bar position"</summary>
+        </key>
+        <key name="level-indicator-color" type="i">
+            <default>1</default>
+            <summary>"Level Color"</summary>
+        </key>
+        <key name="level-indicator-custom-colors" type="as">
+            <default>['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c931',
+              '#15c931', '#15c931', '#15c931', '#15c931', '#15c931']</default>
+            <summary>"Custom colors for each 10% battery-level bucket (100→10)"</summary>
+        </key>
+        <key name="circle-widget-color" type="i">
+            <default>1</default>
+            <summary>"Circle widget Color"</summary>
+        </key>
+        <key name="circle-widget-custom-colors" type="as">
+            <default>['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c931',
+              '#15c931', '#15c931', '#15c931', '#15c931', '#15c931']</default>
+            <summary>"Custom colors for each 10% battery-level bucket (100→10)"</summary>
+        </key>
+        <key name="device-list" type="as">
+            <default>[]</default>
+            <summary>List of paired devices that reports battery level</summary>
+        </key>
+        <key name="enable-upower-level-icon" type="b">
+            <default>false</default>
+            <summary>"enable indicator for upower devices"</summary>
+        </key>
+        <key name="upower-device-list" type="as">
+            <default>[]</default>
+            <summary>List of upower devices that reports battery level</summary>
+        </key>
+        <key name="attenuated-on-destroy-info" type="as">
+            <default>[]</default>
+            <summary>On destroy attenuated info</summary>
+        </key>
+        <key name="enable-airpods-device" type="b">
+            <default>false</default>
+            <summary>"enable Airpods / Beats devices"</summary>
+        </key>
+        <key name="airpods-list" type="as">
+            <default>[]</default>
+            <summary>List of airpods devices</summary>
+        </key>
+        <key name="enable-sony-device" type="b">
+            <default>false</default>
+            <summary>"enable Sony devices"</summary>
+        </key>
+        <key name="sony-list" type="as">
+            <default>[]</default>
+            <summary>List of Sony devices</summary>
+        </key>
+        <key name="enable-gattbas-device" type="b">
+            <default>false</default>
+            <summary>"enable gattbas devices"</summary>
+        </key>
+        <key name="gattbas-list" type="as">
+            <default>[]</default>
+            <summary>List of gattbas devices</summary>
+        </key>
+    </schema>
+</schemalist>
