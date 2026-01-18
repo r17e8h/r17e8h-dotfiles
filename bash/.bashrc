@@ -506,7 +506,7 @@ fi
 export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin"
 
 eval "$(starship init bash)"
-eval "$(zoxide init bash)"
+eval "$(zoxide init bash --cmd cd)"
 alias ls='lsd'
 alias gamingmodeon='sudo nvidia-smi -pm 1'
 alias gamingmodeoff='sudo nvidia-smi -pm 0'
