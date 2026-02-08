@@ -524,4 +524,6 @@ fastfetch() {
         command fastfetch --config "$HOME/.config/fastfetch/config.jsonc" "$@"
     fi
 }
-fastfetch
+if [ -z "$NVIM" ]; then
+    fastfetch
+fi
