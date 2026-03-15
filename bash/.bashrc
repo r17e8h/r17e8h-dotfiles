@@ -527,3 +527,15 @@ fastfetch() {
 if [ -z "$NVIM" ]; then
     fastfetch
 fi
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+#aafire
+alias aafire='aafire -driver curses'
+
+#bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+#postgresql
+export PGSQL_INSTALL="/usr/pgsql-17"
+export PATH="$PGSQL_INSTALL/bin:$PATH"
